@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "merrychristmas",
+  "version": "${version}",
+  "name": "merrychristmas",
+  "description": "Christmas mod",
+  "authors": [
+    "TheCuddlyBear"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.thecuddlybear.merrychristmas.fabric.merrychristmasFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "minecraft": ">=1.19.3"
+  }
+}
